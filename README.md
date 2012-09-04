@@ -140,7 +140,7 @@ A simple to use and and easy to install [Recaptcha](http://www.google.com/recapt
 	// validation rule called 'valid_recaptcha' 
 	$this->load->library('form_validation');
 	
-	// new rule: valid_captcha, must be run on the field named 'recaptcha_challenge_field' 
+	// new rule: valid_recaptcha, must be run on the field named 'recaptcha_challenge_field' 
 	$rules = array(
 		array(
 			'field' => 'recaptcha_challenge_field',
